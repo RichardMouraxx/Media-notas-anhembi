@@ -1,51 +1,69 @@
-body{
-    background-color: rgba(0, 64, 53, 0.97);
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-
+body {
+  background-color: rgba(0, 64, 53, 0.97);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-section {    
-    background-color: rgba(255, 255, 255, 0.736);
-    color: rgb(0, 0, 0);
-    max-width: 450px;
-    margin: 100px auto;
-    padding: 10px;
-    border-radius: 20px;
-    border-style: double solid;
-    text-align: center;
-    font-size: large;
-    min-height : 200px;
+section {
+  background-color: rgba(255, 255, 255, 0.736);
+  color: rgb(0, 0, 0);
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: double solid;
+  text-align: center;
+  font-size: large;
+  min-height: 200px;
 }
 
 #a1, #a2, #a3, #a4, #n2 {
-    width: 40px;
-    border-radius: 5px;
+  width: 40px;
+  border-radius: 5px;
+  border-color: rgb(232, 232, 232);
 }
 
-#btn{
-    border-color: rgb(102, 102, 255);
-    padding: 8px;
-    border-radius: 10px;
+#limpar {
+    border-color: rgb(232, 232, 232);
+     padding: 8px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+   }
+   
+#limpar:hover {
+     transition: 0.4s;
+     background-color: #ff6767;
+     border-color: rgb(202, 0, 0);
+   }
+
+#btn {
+ border-color: rgb(232, 232, 232);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
-#btn:hover{    
-    transition: 0.4s;
-    background-color: rgb(58, 58, 255);
-    color: white;
-
+#btn:hover {
+  transition: 0.4s;
+  background-color: #5eff3a;
+  border-color: rgb(0, 208, 42);
 }
 
 #res {
-    text-align: center;
-    display: inline;
-    background-color: greenyellow;
+  font-weight: bolder;
+  display: inline;
+  background-color: #adff2f;
 }
 
 #res1 {
-    text-align: center;
-    background-color: rgb(255, 117, 117);
-    display: inline;
+  font-weight: bolder;
+  display: inline;
+  background-color: #ff635b;
+}
 
+#res2 {
+  font-weight: border;
+  display: inline-flex;
+  color: #ff0000;
 }
